@@ -1,0 +1,6 @@
+interface:
+  display_name: "research-hub"
+  short_description: "根据当前科研任务从可扩展目录中选择模块并提出方案，经用户确认后执行"
+  default_prompt: "使用research-hub，先分析当前任务并提交方法、模块和交付方案，等我确认后再执行。"
+policy:
+  allow_implicit_invocation: true
